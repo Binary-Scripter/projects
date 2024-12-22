@@ -1,0 +1,115 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+}
+.main {
+    display: flex;align-items: center;
+    flex-direction: column;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 100px 35px;
+}
+.container .sidepic img {
+    width: 370px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+form .login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.295);
+    padding: 32px;
+}
+form .login img {
+    width: 180px;
+    margin: 20px;
+}
+input {
+    display: block;
+    margin: 4px 0px;
+    padding: 8px 6px;
+    width: 250px;
+    color: rgba(0, 0, 0, 0.781);
+    border: 1px solid rgba(0, 0, 0, 0.267);
+    background-color: rgba(0, 0, 0, 0.034);
+    border-radius: 4px;
+}
+form .login .loginbtn {
+    width: 100%;
+    margin: 8px 3px;
+    padding: 6px;
+    color: white;
+    background-color: rgba(0, 148, 246, 0.781);
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+form .login .or {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    font-size: 14px;
+    margin: 10px 0;
+}
+form .login .or .line {
+    height: 1px;
+    width: 100px;
+    background-color: rgba(0, 0, 0, 0.281);
+}
+form .noaccount {
+    margin: 12px 0;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.295);
+}
+form .noaccount p span {
+    color: #0053c0;
+    font-weight: 500;
+}
+form .gettheapp .download-options {
+    display: flex;
+}
+form .gettheapp .download-options img {
+    width: 130px;
+}
+form .gettheapp .download-options :nth-child(2) {
+    height: 40px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    padding: 0 0 40px 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: smaller;
+    color: rgba(0, 0, 0, 0.781);
+}
+.footer .links {
+    display: flex;
+}
+.footer select {
+    color: rgba(0, 0, 0, 0.781);
+    padding: 2px;
+    height: 20px;
+    font-size: 12px;
+    width: 90px;
+    border: none;
+}
+.footer .links p {
+    text-align: center;
+    padding: 0 8px;
+}
